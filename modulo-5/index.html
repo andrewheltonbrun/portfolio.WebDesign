@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página Interativa</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header class="cabecalho">
+        <h1>Minha Página Interativa</h1>
+        <p>Aprendendo JavaScript na prática!</p>
+    </header>
+
+    <main class="container">
+        <section class="cartao">
+            <h2 id="titulo">Olá! Seja bem-vindo(a)!</h2>
+
+            <p id="mensagem">
+                Clique nos botões abaixo e veja a mágica acontecer.
+            </p>
+
+            <div class="botoes">
+                <button id="botaoMensagem" type="button">
+                    Mudar mensagem
+                </button>
+
+                <button id="botaoCor" type="button">
+                    Mudar cor
+                </button>
+
+                <button id="botaoData" type="button">
+                    Mostrar data e hora
+                </button>
+
+                <button id="botaoRestaurar" type="button">
+                    Restaurar página
+                </button>
+            </div>
+
+            <p id="resultado" aria-live="polite"></p>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>Projeto de Introdução ao JavaScript - Módulo 07</p>
+    </footer>
+
+</body>
+</html>
