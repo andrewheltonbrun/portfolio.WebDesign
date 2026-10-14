@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site sobre Futebol</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Site sobre Futebol</h1>
+        </header>
+        <section>
+            <h2>Seção 1</h2>
+            <p>Este é um parágrafo dentro da seção 1.</p>
+            <img src="imagens/bola.PNG" alt="Imagem de uma bola de futebol">
+        </section>
+        <section>
+            <h2>Seção 2</h2>
+            <p>Este é um parágrafo dentro da seção 2.</p>
+        </section>
+        <article>
+            <h2>Artigo</h2>
+            <p>Este é um parágrafo dentro do artigo.</p>
+        </article>
+        <aside>
+            <h2>Informações Adicionais</h2>
+            <p>Formações de futebol</p>
+        </aside>
+        <footer>
+            <p>&copy; 2023 Site sobre Futebol</p>
+        </footer>
+</body>
+</html>
