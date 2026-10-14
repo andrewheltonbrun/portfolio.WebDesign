@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Projeto CSS</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <header class="cabecalho">
+        <h1>Meu Primeiro Projeto CSS</h1>
+        <p>Aprendendo a transformar páginas com cores e estilos!</p>
+    </header>
+
+    <main class="container">
+        <section class="cartao">
+            <h2>Bem-vindo ao meu site!</h2>
+
+            <p>
+                Nesta atividade, estou aprendendo a utilizar CSS
+                para personalizar páginas HTML, escolher cores,
+                organizar espaços e criar efeitos interativos.
+            </p>
+
+            <h3>O que estou aprendendo?</h3>
+
+            <ul>
+                <li>Paleta de cores</li>
+                <li>Margens e espaçamentos</li>
+                <li>Bordas e Box Model</li>
+                <li>Efeitos de hover em botões</li>
+            </ul>
+
+            <button class="botao">Saiba mais</button>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>Desenvolvido por mim | Módulo 05 - Web Design</p>
+    </footer>
+
+</body>
+</html>
